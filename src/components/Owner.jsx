@@ -72,7 +72,7 @@ const Owner = () => {
             }`}
           >
             <img
-              src="../assets/images/ProfilePicandLuna/ProfilePic.jpg"
+              src="/public/images/May 2025 Rides/ProfilePicandLuna/MyProfile.jpg"
               alt="Clarence D. Sumagang"
               className="owner-image"
               loading="lazy"

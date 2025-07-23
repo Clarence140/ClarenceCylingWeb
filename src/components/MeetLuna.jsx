@@ -71,7 +71,7 @@ const MeetLuna = () => {
             }`}
           >
             <img
-              src="../assets/images/ProfilePicandLuna/Lunasprofile.jpg"
+              src="/public/images/May 2025 Rides/ProfilePicandLuna/LunasProfile.jpg"
               alt="LUNA - 月翔 (Moon Flyer)"
               className="luna-image"
               loading="lazy"
