@@ -71,7 +71,7 @@ const MeetLuna = () => {
             }`}
           >
             <img
-              src="/public/images/ProfilePicandLuna/Lunasprofile.jpg"
+              src="../assets/images/ProfilePicandLuna/Lunasprofile.jpg"
               alt="LUNA - 月翔 (Moon Flyer)"
               className="luna-image"
               loading="lazy"
