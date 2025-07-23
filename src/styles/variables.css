@@ -1,0 +1,80 @@
+﻿/* Enhanced CSS Variables for Better Eye Comfort */
+:root {
+  /* Base Colors - Softer and Eye-Friendly */
+  --primary-color: #0f0f0f;
+  --secondary-color: #1a1a1a;
+  --accent-color: #00d4aa;
+  --accent-color-rgb: 0, 212, 170;
+  --accent-secondary: #00b4ff;
+  --accent-tertiary: #7c3aed;
+
+  /* Text Colors - Better Contrast */
+  --text-color: #f0f0f0;
+  --text-secondary: #b8b8b8;
+  --text-muted: #888888;
+
+  /* Background Variations */
+  --header-bg: rgba(15, 15, 15, 0.95);
+  --footer-bg: #0a0a0a;
+  --modal-bg: rgba(15, 15, 15, 0.92);
+  --modal-content-bg: #1a1a1a;
+
+  /* Section-Specific Themes */
+  --home-gradient: linear-gradient(
+    135deg,
+    rgba(0, 212, 170, 0.05) 0%,
+    rgba(0, 180, 255, 0.03) 100%
+  );
+  --luna-gradient: linear-gradient(
+    135deg,
+    rgba(124, 58, 237, 0.04) 0%,
+    rgba(0, 212, 170, 0.02) 100%
+  );
+  --adventures-gradient: linear-gradient(
+    135deg,
+    rgba(0, 180, 255, 0.04) 0%,
+    rgba(0, 212, 170, 0.02) 100%
+  );
+  --gallery-gradient: linear-gradient(
+    135deg,
+    rgba(0, 212, 170, 0.03) 0%,
+    rgba(124, 58, 237, 0.02) 100%
+  );
+  --specs-gradient: linear-gradient(
+    135deg,
+    rgba(124, 58, 237, 0.03) 0%,
+    rgba(0, 180, 255, 0.02) 100%
+  );
+  --owner-gradient: linear-gradient(
+    135deg,
+    rgba(0, 180, 255, 0.04) 0%,
+    rgba(0, 212, 170, 0.02) 100%
+  );
+  --contact-gradient: linear-gradient(
+    135deg,
+    rgba(0, 212, 170, 0.04) 0%,
+    rgba(124, 58, 237, 0.02) 100%
+  );
+
+  /* Interactive Elements */
+  --btn-text-color: #0f0f0f;
+  --table-bg: #1a1a1a;
+  --table-border: #2a2a2a;
+  --table-text: #f0f0f0;
+  --table-hover: #252525;
+  --mobile-nav-bg: rgba(15, 15, 15, 0.98);
+
+  /* Animations */
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  --border-radius: 12px;
+  --box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --box-shadow-hover: 0 8px 30px rgba(0, 212, 170, 0.15);
+
+  /* Layout */
+  --max-width: 1200px;
+  --header-height: 80px;
+
+  /* Floating Elements */
+  --floating-offset: 20px;
+}
