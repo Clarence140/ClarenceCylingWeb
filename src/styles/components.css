@@ -503,7 +503,7 @@
   box-shadow: var(--box-shadow);
   transition: var(--transition-slow);
   cursor: pointer;
-  height: 400px;
+  height: 430px; /* Keep fixed height */
   display: flex;
   flex-direction: column;
   border: 1px solid rgba(var(--accent-color-rgb), 0.1);
@@ -536,6 +536,8 @@
     var(--secondary-color),
     rgba(var(--secondary-color), 0.98)
   );
+  /* ADD THIS to prevent text overflow */
+  min-height: 0; /* Allows flex item to shrink */
 }
 
 .adventure-date {
@@ -557,6 +559,11 @@
   font-size: 0.95rem;
   line-height: 1.6;
   flex: 1;
+  /* ADD THIS to handle overflow */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  -webkit-box-orient: vertical;
 }
 
 .pagination {
